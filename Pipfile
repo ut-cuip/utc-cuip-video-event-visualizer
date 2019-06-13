@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+confluent-kafka = "*"
+pandas = "*"
+opencv-python = "*"
+flask-opencv-streamer = "*"
+
+[dev-packages]
+pylint = "*"
+"autopep8" = "*"
+
+[requires]
+python_version = "3.6.5"
